@@ -30,6 +30,27 @@ a {
     color: white;
 }
 
+.profile-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-info {
+    margin: 24px;
+}
+
+.profile-my-name {
+    color: #291854;
+}
+
+.profile-my-job-title {
+    margin: 8px 0px 16px 0px;
+}
+
+.profile-about-me {
+    color: #291854;
+}
+
 .central-block {
     display: flex;
     flex-direction: column;
@@ -54,11 +75,22 @@ a {
     border-radius: 8px;
 }
 
-.block a {
-    margin: 8px 8px 8px 8px;
+.block-text {
+    margin: 8px 0px 8px 0px;
     text-align: center;
     color: #291854;
+}
 
+.block-list {
+    margin: 8px 0px 8px 0px;
+    list-style: none;
+    text-align: center;
+    color: #291854;
+}
+
+.photo {
+    height: 280px;
+    border-radius: 0 0 0 40px;
 }
 
 .content {
