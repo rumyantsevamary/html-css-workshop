@@ -37,6 +37,10 @@ a {
     margin: 24px 16px 16px 16px;
 }
 
+.central-block h2 {
+    margin-bottom: 24px;
+}
+
 .work-blocks {
     display: flex;
     flex-direction: row;
@@ -58,7 +62,6 @@ a {
     margin: 8px 8px 8px 8px;
     text-align: center;
     color: #291854;
-
 }
 
 .content {
